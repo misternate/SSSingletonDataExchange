@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C106a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -32,7 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loadInfo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zNE-6T-If2"/>
+                                    <action selector="logInfo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="z0l-dB-Nkc"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-Zs-7Za">
@@ -213,12 +213,12 @@
                                 <exclude reference="ab3-WQ-fEP"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="0J6-Ao-phd"/>
                                 <exclude reference="NaH-t0-FVd"/>
                                 <exclude reference="dZb-bJ-EiJ"/>
+                                <exclude reference="agL-2e-g7A"/>
                                 <exclude reference="Bdh-4G-JJI"/>
                                 <exclude reference="iK1-19-gz2"/>
-                                <exclude reference="agL-2e-g7A"/>
-                                <exclude reference="0J6-Ao-phd"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -228,12 +228,12 @@
                                 <include reference="ab3-WQ-fEP"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="0J6-Ao-phd"/>
                                 <include reference="NaH-t0-FVd"/>
                                 <include reference="dZb-bJ-EiJ"/>
+                                <include reference="agL-2e-g7A"/>
                                 <include reference="Bdh-4G-JJI"/>
                                 <include reference="iK1-19-gz2"/>
-                                <include reference="agL-2e-g7A"/>
-                                <include reference="0J6-Ao-phd"/>
                             </mask>
                         </variation>
                     </view>

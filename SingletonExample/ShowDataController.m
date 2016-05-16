@@ -14,7 +14,7 @@
     [super viewDidLoad];
     
     DataManager *dataManagerSingleton = [DataManager getInstance];
-    if([dataManagerSingleton getInfo] == nil){
+    if(![dataManagerSingleton getInfo]){
         self.showDataTextView.text = @"No data set!";
     }else{
         self.showDataTextView.text = [dataManagerSingleton getInfo];

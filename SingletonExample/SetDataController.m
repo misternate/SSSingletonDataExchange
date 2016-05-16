@@ -21,9 +21,6 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-
-    NSLog(@"prepareForSegue: %@", segue.identifier);
-    
     if([segue.identifier isEqualToString:@"segueToShowData"]){
         
     }else if([segue.identifier isEqualToString:@"segueIndentifier1"]){
@@ -44,13 +41,13 @@
     }
 }
 
-- (IBAction)loadInfo:(id)sender {
+- (IBAction)logInfo:(id)sender {
     DataManager *dataManagerSingleton = [DataManager getInstance];
     NSLog(@"Retrieved Data: %@", [dataManagerSingleton getInfo]);
 }
 
 -(IBAction)prepareForUnwindFromShowData:(UIStoryboardSegue *)segue{
-    
+    NSLog(@"and we're back!");
 }
 
 @end
