@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  SingletonExample
 //
-//  Created by Nate Edwards on 3/16/15.
+//  Created by Nathan Edwards on 3/16/15.
 //  Copyright (c) 2015 misternate. All rights reserved.
 //
 
